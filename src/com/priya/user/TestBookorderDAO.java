@@ -1,12 +1,13 @@
 package com.priya.user;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.List;
 
 public class TestBookorderDAO{
 	public static void main(String[] args) throws Exception
 	{
-		LocalDate p=LocalDate.parse("2014-05-10");
+		LocalDateTime p=LocalDateTime.now();
 		BookOrder order=new BookOrder();
 		order.setUserId(1);
 		order.setBooksId(1);
